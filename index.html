@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>СервисОкон — приложение</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content container">
+      <p class="brand">СЕРВИС<span>ОКОН</span></p>
+      <h1>Батареи жарят, а дома всё равно прохладно?</h1>
+      <p class="subtitle">Частая причина — не отопление, а окна. Приложение поможет за 30 секунд понять, где уходит тепло.</p>
+      <a href="#form" class="btn">Записаться на диагностику</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="container cards">
+      <article class="card">
+        <h3>Что проверить за 30 секунд</h3>
+        <ul>
+          <li>Тянет ли от окна рукой</li>
+          <li>Есть ли свист при ветре</li>
+          <li>Плотно ли закрывается ручка</li>
+          <li>Сухой ли уплотнитель</li>
+          <li>Есть ли конденсат по краям</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Проблемы, которые решаем</h3>
+        <ul>
+          <li>Замена и восстановление уплотнителя</li>
+          <li>Регулировка створки и фурнитуры</li>
+          <li>Устранение микропродувания</li>
+          <li>Замена стеклопакета</li>
+          <li>Установка замков и сеток</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Почему выбирают нас</h3>
+        <ul>
+          <li>Опыт более 10 лет</li>
+          <li>Гарантия на выполненные работы</li>
+          <li>Быстрый выезд по Саранску и Мордовии</li>
+          <li>Честная диагностика без навязывания</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="form" class="container form-block">
+      <h2>Оставьте заявку в приложении</h2>
+      <p>Перезвоним в течение 15 минут и подскажем оптимальное решение.</p>
+      <form id="leadForm">
+        <input type="text" id="name" placeholder="Ваше имя" required />
+        <input type="tel" id="phone" placeholder="Телефон" required />
+        <textarea id="comment" rows="3" placeholder="Кратко опишите проблему"></textarea>
+        <button type="submit" class="btn">Отправить заявку</button>
+      </form>
+      <p id="result" class="result"></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 СервисОкон · Саранск · +7 (927) 276-74-14</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
